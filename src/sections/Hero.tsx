@@ -68,9 +68,9 @@ const Hero = () => {
           <motion.div 
             custom={0} 
             variants={textVariants} 
-            className="inline-block px-4 sm:px-6 mt-6 sm:mt-8 py-1 justify-center items-center rounded-full backdrop-blur-sm text-xs sm:text-sm bg-blue-500/10 border border-blue-500/30 text-blue-300  hover:text-white hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300"
+            className="inline-block px-4 sm:px-6 mt-6 sm:mt-8 py-1 justify-center items-center rounded-full backdrop-blur-sm text-xs sm:text-sm bg-blue-500/20 border border-primary text-primary/60  hover:text-primary hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300"
           >
-            Hi there, I'm BANK!
+            " Believe you can and you're halfway there. "
           </motion.div>
           
           <motion.h1 
@@ -78,7 +78,7 @@ const Hero = () => {
             variants={textVariants} 
             className="text-5xl md:text-7xl font-bold mb-6 tracking-tight"
           >
-            Creating <span className="text-primary">digital experiences</span> that make a difference
+          Wutthipong <span className="bg-gradient-to-r from-primary to-white/10 bg-clip-text text-transparent">Wongwai.</span> make a difference
           </motion.h1>
           
           <motion.div custom={2} variants={textVariants}>
