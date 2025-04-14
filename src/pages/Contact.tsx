@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Send, Mail, Phone, MapPin, Linkedin, Github, Twitter } from 'lucide-react';
+import { Send, Mail, Phone, MapPin, Linkedin, Github, Twitter, Facebook  } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -172,15 +172,15 @@ const Contact = () => {
             <div className="bg-card rounded-xl shadow-sm p-6 md:p-8">
               <h2 className="text-2xl font-semibold mb-6">Connect With Me</h2>
               <div className="flex flex-wrap gap-4 justify-center">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-primary/10 hover:bg-primary/20 p-4 rounded-full transition-colors">
-                  <Linkedin className="text-primary" size={24} />
-                  <span className="sr-only">LinkedIn</span>
+                <a href="https://www.facebook.com/BANK201049/" target="_blank" rel="noopener noreferrer" className="bg-primary/10 hover:bg-primary/20 p-4 rounded-full transition-colors">
+                  <Facebook className="text-primary" size={24} />
+                  <span className="sr-only">Facebook</span>
                 </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="bg-primary/10 hover:bg-primary/20 p-4 rounded-full transition-colors">
+                <a href="https://github.com/VAzenx" target="_blank" rel="noopener noreferrer" className="bg-primary/10 hover:bg-primary/20 p-4 rounded-full transition-colors">
                   <Github className="text-primary" size={24} />
                   <span className="sr-only">GitHub</span>
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="bg-primary/10 hover:bg-primary/20 p-4 rounded-full transition-colors">
+                <a href="https://x.com/Wutthipong_2006" target="_blank" rel="noopener noreferrer" className="bg-primary/10 hover:bg-primary/20 p-4 rounded-full transition-colors">
                   <Twitter className="text-primary" size={24} />
                   <span className="sr-only">Twitter</span>
                 </a>
