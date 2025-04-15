@@ -67,9 +67,11 @@ const About = () => {
                 </CardContent>
               </Card>
               <Card className="glass hover:shadow-xl hover:scale-105 transition-all duration-700">
+              
                 <CardContent className="flex items-center gap-3 p-4">
                   <Heart className="text-primary" />
                   <span>Passionate about UX</span>
+                  
                 </CardContent>
               </Card>
               <Card className="glass hover:shadow-xl hover:scale-105 transition-all duration-700">
@@ -90,15 +92,17 @@ const About = () => {
                   <span>Music Enthusiast</span>
                 </CardContent>
               </Card>
-              {/* Tags */}
-              <div className='flex flex-wrap md:flex-wrap-reverse gap-4 mt-4'>
-                <span className="bg-primary/20 text-primary rounded-full px-4 py-2 text-sm font-semibold">#JavaScript</span>
-                <span className="bg-primary/20 text-primary rounded-full px-4 py-2 text-sm font-semibold">#React</span>
-                <span className="bg-primary/20 text-primary rounded-full px-4 py-2 text-sm font-semibold">#Node.js</span>
-                <span className="bg-primary/20 text-primary rounded-full px-4 py-2 text-sm font-semibold">#TypeScript</span>
-                <span className="bg-primary/20 text-primary rounded-full px-4 py-2 text-sm font-semibold">#TailwindCss</span>
-              </div>
             </div>
+            {/* Tages */}
+            <div className='flex flex-wrap gap-3 mt-4'>
+                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 transition-colors duration-300">#JavaScript</span>
+                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 transition-colors duration-300">#React</span>
+                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 transition-colors duration-300">#Node.js</span>
+                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 transition-colors duration-300">#TypeScript</span>
+                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 transition-colors duration-300">#TailwindCss</span>
+                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 transition-colors duration-300">#Next.Js</span>
+                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 transition-colors duration-300">#GSAP</span>
+              </div>
           </motion.div>
         </div>
       </div>
