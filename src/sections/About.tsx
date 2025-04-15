@@ -94,15 +94,15 @@ const About = () => {
               </Card>
             </div>
             {/* Tages */}
-            <h3 className="text-2xl font-semibold mt-4">#Tages</h3>
+            <h3 className="inline absolute  px-3 py-1 top-2 relative text-2xl font-semibold hover:text-blue-700 transition-all duration-700">#Tages</h3>
             <div className='flex flex-wrap gap-3 mt-4'>
-                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-scale duration-700">#JavaScript</span>
-                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#React</span>
-                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#Node.js</span>
-                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#TypeScript</span>
-                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#TailwindCss</span>
-                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#Next.Js</span>
-                <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#GSAP</span>
+                <span className="glass px-4 py-2  text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-scale duration-700">#JavaScript</span>
+                <span className="glass px-4 py-2  text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#React</span>
+                <span className="glass px-4 py-2  text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#Node.js</span>
+                <span className="glass px-4 py-2  text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#TypeScript</span>
+                <span className="glass px-4 py-2  text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#TailwindCss</span>
+                <span className="glass px-4 py-2  text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#Next.Js</span>
+                <span className="glass px-4 py-2  text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-200 hover:shadow-xl duration-300 hover:scale-105 transition-all duration-700">#GSAP</span>
               </div>
           </motion.div>
         </div>

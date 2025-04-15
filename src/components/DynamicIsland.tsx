@@ -24,11 +24,11 @@ const DynamicIsland = () => {
     }
 
     // Handle hash-based navigation
-    // const hash = location.hash.slice(1);
-    // if (hash) {
-    //   setCurrentSection(hash);
-    //   return;
-    // }
+    const hash = location.hash.slice(1);
+    if (hash) {
+      setCurrentSection(hash);
+      return;
+    }
 
     // Scroll detection on home page
     if (path === '/') {
@@ -84,7 +84,7 @@ const DynamicIsland = () => {
   };
 
   return (
-    <div className="fixed top-4 left-1/2 -translate-x-1/2 z-40 hover:scale-110 transition-transform duration-300 ">
+    <div className="fixed top-4 left-1/2 border-2 border-blue-200 dark:border-yellow-200 rounded-full -translate-x-1/2 z-40 hover:scale-110 transition-transform duration-300 ">
       <motion.div 
         initial={{ width: '64px' }}
         animate={{ 
