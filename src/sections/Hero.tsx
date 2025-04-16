@@ -78,7 +78,7 @@ const Hero = () => {
             variants={textVariants} 
             className="text-5xl md:text-7xl font-bold mb-6 tracking-tight"
           >
-          Wutthipong <span className="bg-gradient-to-r from-primary to-white/10 bg-clip-text text-transparent">Wongwai.</span> make a difference
+          Wutthipong <span className="bg-gradient-to-r from-primary to-blue-200 bg-clip-text text-transparent">Wongwai.</span> make a difference
           </motion.h1>
           
           <motion.div custom={2} variants={textVariants}>
