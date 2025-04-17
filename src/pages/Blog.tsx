@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import ThemeToggle from '@/components/ThemeToggle';
+import DynamicIsland from '@/components/DynamicIsland';
 import { Calendar, User, Tag, ChevronRight, ChevronLeft, Search, ChevronDown, ChevronUp, Clock } from 'lucide-react';
 
 // Mock blog data - could be fetched from an API
@@ -175,18 +175,8 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen py-32 transition-all duration-700">
-
-{/* Back to Home Button */}
-<div className="fixed flex top-4 left-1/2 -translate-x-1/2 z-40 hover:scale-110 transition-transform duration-300">
-  <Link to="/">
-    <Button
-    className="text-primary dark:text-white glass hover:glass rounded-full shadow-lg transition-all duration-300"
-    >
-      / BACK TO HOME
-    </Button>
-  </Link>
-</div>
-
+          <DynamicIsland />
+      
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0 }}

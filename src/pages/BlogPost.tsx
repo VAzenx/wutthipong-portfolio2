@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useLoading } from '../context/LoadingContext';
 import { useEffect } from 'react';
+import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 // Dummy blog data
 const blogPosts = [
@@ -86,7 +88,7 @@ const BlogPost = () => {
         <div className="min-h-screen bg-background flex items-center justify-center transition-all duration-700">
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-portfolio-accent dark:border-portfolio-darkAccent mx-auto"></div>
-            <p className="mt-4">Loading post...</p>
+            <p className="mt-4">Comming SOon...</p>
           </div>
         </div>
     );
@@ -107,6 +109,18 @@ const BlogPost = () => {
 
   return (
     <div className="relative pt-20 pb-32">
+      {/* Back to BLog Button */}
+      <div className="fixed flex top-4 left-1/2 -translate-x-1/2 z-40 hover:scale-110 transition-transform duration-300">
+        <Link to="/blog">
+          <Button
+            className="text-primary dark:text-white glass hover:glass rounded-full shadow-lg transition-all duration-300"
+            variant="outline"
+          >
+            / BACK TO BLOG POST
+          </Button>
+        </Link>
+      </div>
+
       {/* Hero Image */}
       <div className="w-full h-64 md:h-80 lg:h-96 overflow-hidden">
         <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
